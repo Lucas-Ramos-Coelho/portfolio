@@ -1,0 +1,18 @@
+.habilidadesSection{
+    width: 100%;
+    height: 60vh;
+    padding-top: 3rem;
+    background-color: #DDA853;
+}
+
+.habilidades{
+    width: 100%;
+    max-width: 800px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+}
