@@ -1,0 +1,15 @@
+.projetosSection{
+    background: linear-gradient(180deg, #DDA853 0%, #183B4E 15%);
+    width: 100%;
+    height: 100vh;
+    padding-top: 6.5rem;
+    background-color: #183B4E;
+}
+
+.projetos{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}

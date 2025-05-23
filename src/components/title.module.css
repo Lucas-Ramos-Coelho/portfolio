@@ -1,0 +1,15 @@
+.title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 2rem auto 2rem;
+  text-transform: uppercase;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Sofadi+One&display=swap");
+
+header {
+  max-width: 100%;
+  height: 70px;
+  padding: 0px 35px 0px 30px;
+  background-color: #183b4e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.namebox .name {
+  font-family: "Shadows Into Light", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff;
+}
+
+.optionbox {
+  display: flex;
+  gap: 30px;
+}
+
+.optionbox .option {
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.line {
+  width: 100%;
+  height: 20px;
+  background-color: #dda853;
+}
+
+.option {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  transition: color 0.3s ease-in-out;
+}
+
+.option::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #ffd700;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.option:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
